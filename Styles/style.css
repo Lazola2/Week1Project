@@ -1,8 +1,7 @@
 /* import google fonts: (Abel) */
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-*, 
-*:is(::after, ::before) {
+*, *:is(::after, ::before) {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -40,8 +39,11 @@ header nav ul li {
     color: #f7f7f7;
     list-style: none;
     margin: 0 40px;
+    transition: .3s ease-in-out;
+    box-sizing: border-box;
 }
 
 header nav ul li:hover {
     color: rgb(59,167,157);
+    scale: 1.15;
 }
