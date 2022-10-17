@@ -1,0 +1,47 @@
+/* import google fonts: (Abel) */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*, 
+*:is(::after, ::before) {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Styling the header content */
+header {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(182,183,185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15%;
+}
+
+header #logo {
+    height: 90%;
+    margin-left: 5px;
+    width: 18%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    color: #f7f7f7;
+    list-style: none;
+    margin: 0 40px;
+}
+
+header nav ul li:hover {
+    color: rgb(59,167,157);
+}
